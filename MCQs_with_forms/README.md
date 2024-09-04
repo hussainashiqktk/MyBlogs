@@ -1,3 +1,30 @@
+# Study the Material
+- e.g. THM
+
+# Generate MCQS using AI
+
+- https://www.quizwhiz.ai/create-new-quiz/
+- Or directly chatgpt:
+
+promt
+
+```bash
+Please generate multiple-choice questions (MCQs) based on the material provided. The MCQs should cover a wide range of aspects, including technical details and recall-based questions related to the text. The output should be formatted in a table with five columns, as described below:
+
+Question: The main question being asked.
+CorrectAns: The correct answer to the question.
+OptionB: An incorrect answer option.
+OptionC: An incorrect answer option.
+OptionD: An incorrect answer option.
+Ensure that the questions are varied and comprehensive, addressing all significant points from the material. The table should be suitable for pasting into Google Sheets for further use in generating a Google Form quiz.
+Donot give serialn numbers to questions.
+
+```
+
+
+
+----
+
 Here’s the fully documented and optimized script with a detailed description of prerequisites and usage instructions:
 
 ```javascript
