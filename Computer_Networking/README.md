@@ -45,3 +45,12 @@ At the most basic level, DNS allows us to ask a special server for the IP addres
 6. **Authoritative Name Servers**:
    - These servers store DNS records for domains directly. Every domain has its DNS records stored on an authoritative name server.
    - When your request reaches the authoritative name server for the domain you’re querying, it sends the relevant information back, allowing your computer to connect to the requested IP address.
+  
+
+## Where is the DNS Cache stored in Windows?
+
+```
+There is no "cache file" – the cache is kept in memory only. It is maintained by the "DNS Client" service (internally named Dnscache), therefore the cache data would be somewhere inside one of the svchost.exe processes.
+```
+Read more here : https://superuser.com/questions/1029285/where-is-dns-cache-located-on-windows-8-1
+
