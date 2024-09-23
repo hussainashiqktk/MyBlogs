@@ -54,3 +54,11 @@ There is no "cache file" – the cache is kept in memory only. It is maintained 
 ```
 Read more here : https://superuser.com/questions/1029285/where-is-dns-cache-located-on-windows-8-1
 
+---
+
+## OSI Model Deep Dive
+
+![image](https://github.com/user-attachments/assets/c11ff928-5a13-4b80-88f6-f2c059ddbe86)
+
+- https://www.youtube.com/watch?v=oVVlMqsLdro&t=1867s
+
